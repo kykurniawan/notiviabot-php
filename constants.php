@@ -11,7 +11,7 @@ $hostName = $_SERVER['HTTP_HOST'];
 $base = 'https://' . $hostName . $pathInfo['dirname'] . "/";
 
 define('APIKEY', 'secret');
-define('BOTTOKEN', '5441105233:AAEbLrN9dIXcfDcYAkFTsPobOczBvWtZJJA');
+define('BOTTOKEN', '');
 define('DBHOST', 'localhost');
 define('DBUSER', 'root');
 define('DBPASS', 'root');
